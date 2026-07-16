@@ -11,6 +11,13 @@
  */
 export type PropertyStatus = "resale" | "new-development";
 
+/**
+ * The market a listing belongs to. Costa del Sol is live; Miami and Dubai are
+ * hub pages for now (no inventory yet) but the field is ready for when real
+ * per-market data arrives.
+ */
+export type Market = "costa-del-sol" | "miami" | "dubai";
+
 export type PropertyTag = "new" | "reduced" | "opportunity" | null;
 
 export interface Property {
@@ -28,6 +35,7 @@ export interface Property {
   images: string[];
   tag: PropertyTag;
   status: PropertyStatus;
+  market: Market;
   descriptionEn: string;
 }
 
@@ -47,6 +55,7 @@ export const properties: Property[] = [
     images: ["https://picsum.photos/seed/shore1/1200/800"],
     tag: null,
     status: "resale",
+    market: "costa-del-sol",
     descriptionEn:
       "A modern duplex with panoramic sea views in Monte Paraiso, a well-kept residential complex finished in 2019, just a short walk from the beach.",
   },
@@ -65,6 +74,7 @@ export const properties: Property[] = [
     images: ["https://picsum.photos/seed/shore2/1200/800"],
     tag: "new",
     status: "resale",
+    market: "costa-del-sol",
     descriptionEn:
       "Fully renovated three-bedroom apartment 500m from the seafront, finished with warm, contemporary interiors throughout.",
   },
@@ -83,6 +93,7 @@ export const properties: Property[] = [
     images: ["https://picsum.photos/seed/shore3/1200/800"],
     tag: null,
     status: "resale",
+    market: "costa-del-sol",
     descriptionEn:
       "Beachside top-floor apartment close to shops and the promenade, with a generous wraparound terrace built for outdoor living.",
   },
@@ -101,6 +112,7 @@ export const properties: Property[] = [
     images: ["https://picsum.photos/seed/shore4/1200/800"],
     tag: "reduced",
     status: "resale",
+    market: "costa-del-sol",
     descriptionEn:
       "An exclusive top-floor corner apartment with panoramic sea views in Las Mesas — recently reduced from €1,250,000 for a fast sale.",
   },
@@ -119,6 +131,7 @@ export const properties: Property[] = [
     images: ["https://picsum.photos/seed/shore5/1200/800"],
     tag: "opportunity",
     status: "resale",
+    market: "costa-del-sol",
     descriptionEn:
       "A one-bedroom apartment with sea views, moments from Calahonda Beach — a bright renovation opportunity in a well-connected pocket of the coast.",
   },
@@ -137,6 +150,7 @@ export const properties: Property[] = [
     images: ["https://picsum.photos/seed/shore6/1200/800"],
     tag: null,
     status: "resale",
+    market: "costa-del-sol",
     descriptionEn:
       "A charming top-floor penthouse with a large terrace overlooking Estepona's historic old town, in the vibrant centre of the city.",
   },
@@ -155,6 +169,7 @@ export const properties: Property[] = [
     images: ["https://picsum.photos/seed/shore7/1200/800"],
     tag: "new",
     status: "new-development",
+    market: "costa-del-sol",
     descriptionEn:
       "Off-plan three-bedroom apartment in a gated development with communal pool, gym and landscaped gardens, completing next year.",
   },
@@ -173,6 +188,7 @@ export const properties: Property[] = [
     images: ["https://picsum.photos/seed/shore8/1200/800"],
     tag: null,
     status: "new-development",
+    market: "costa-del-sol",
     descriptionEn:
       "Contemporary detached villa with private pool and open mountain-to-sea views, part of a boutique new-build enclave in Mijas.",
   },

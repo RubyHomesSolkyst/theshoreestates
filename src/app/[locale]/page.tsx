@@ -4,6 +4,7 @@ import { Link } from "@/i18n/navigation";
 import { HorizonDivider } from "@/components/horizon-rule";
 import { SearchPanel } from "@/components/search-panel";
 import { PropertyCard } from "@/components/property-card";
+import { MarketImage } from "@/components/market-image";
 import { properties } from "@/data/properties";
 import { areas } from "@/data/areas";
 
@@ -17,6 +18,39 @@ export default async function HomePage({
   const t = await getTranslations("Home");
 
   const featured = properties.slice(0, 6);
+
+  // Markets we operate in. Costa del Sol uses a licensed local image; Miami and
+  // Dubai use free placeholders until their images are purchased (see
+  // IMAGES_TODO.md). MarketImage falls back to `fallback` if `src` 404s.
+  const markets = [
+    {
+      key: "costa",
+      name: t("markets.costaName"),
+      blurb: t("markets.costaBlurb"),
+      cta: t("markets.costaCta"),
+      href: "/resale-properties",
+      src: "/images/final/sykkel-i-palmealle.jpg",
+      fallback: "https://picsum.photos/seed/costa-del-sol/1200/900",
+    },
+    {
+      key: "miami",
+      name: t("markets.miamiName"),
+      blurb: t("markets.miamiBlurb"),
+      cta: t("markets.miamiCta"),
+      href: "/contact",
+      src: "/images/placeholder-watermarked/miami-1.jpg",
+      fallback: "https://picsum.photos/seed/miami-skyline/1200/900",
+    },
+    {
+      key: "dubai",
+      name: t("markets.dubaiName"),
+      blurb: t("markets.dubaiBlurb"),
+      cta: t("markets.dubaiCta"),
+      href: "/contact",
+      src: "/images/placeholder-watermarked/dubai-1.jpg",
+      fallback: "https://picsum.photos/seed/dubai-coastline/1200/900",
+    },
+  ];
 
   return (
     <>
@@ -63,6 +97,42 @@ export default async function HomePage({
       </section>
 
       <HorizonDivider position={0.15} />
+
+      {/* MARKETS — one card per region we cover */}
+      <section className="mx-auto max-w-7xl px-5 py-16 md:px-8">
+        <p className="text-xs uppercase tracking-wide text-terracotta">
+          {t("markets.eyebrow")}
+        </p>
+        <h2 className="mb-8 mt-1 font-display text-3xl text-ink">
+          {t("markets.title")}
+        </h2>
+        <div className="grid grid-cols-1 gap-6 md:grid-cols-3">
+          {markets.map((m) => (
+            <Link
+              key={m.key}
+              href={m.href}
+              className="group relative block h-80 overflow-hidden rounded-sm"
+            >
+              <MarketImage
+                src={m.src}
+                fallback={m.fallback}
+                alt={m.name}
+                className="h-full w-full object-cover transition-transform duration-700 group-hover:scale-105"
+              />
+              <div className="absolute inset-0 bg-gradient-to-t from-ink/85 via-ink/25 to-transparent" />
+              <div className="absolute inset-x-6 bottom-6 text-white">
+                <h3 className="font-display text-2xl">{m.name}</h3>
+                <p className="mt-2 text-sm leading-relaxed text-white/80">
+                  {m.blurb}
+                </p>
+                <span className="mt-3 inline-flex items-center gap-1 text-sm underline underline-offset-4">
+                  {m.cta} <ChevronRight size={15} />
+                </span>
+              </div>
+            </Link>
+          ))}
+        </div>
+      </section>
 
       {/* LIFESTYLE BLOCKS */}
       <section

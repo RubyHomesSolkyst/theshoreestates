@@ -7,6 +7,7 @@ import { Link, usePathname } from "@/i18n/navigation";
 import { navItems, isNavGroup, type NavGroup } from "@/config/nav";
 import { useFavorites } from "@/components/favorites-context";
 import { LocaleSwitcher } from "@/components/locale-switcher";
+import { RegionSwitcher } from "@/components/region-switcher";
 import { Logo } from "@/components/logo";
 
 export function Header() {
@@ -43,6 +44,7 @@ export function Header() {
         </nav>
 
         <div className="hidden items-center gap-2.5 lg:flex">
+          <RegionSwitcher />
           <LocaleSwitcher />
           <button
             type="button"
@@ -103,7 +105,8 @@ export function Header() {
               </Link>
             );
           })}
-          <div className="pt-1">
+          <div className="flex items-center gap-2.5 pt-1">
+            <RegionSwitcher />
             <LocaleSwitcher />
           </div>
           <Link

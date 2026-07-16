@@ -80,6 +80,19 @@
       "eyebrow": "Aktualności i analizy",
       "title": "Inspiracje z wybrzeża",
       "all": "Wszystkie artykuły"
+    },
+    "markets": {
+      "eyebrow": "Gdzie działamy",
+      "title": "Trzy wybrzeża, jeden standard obsługi",
+      "costaName": "Costa del Sol",
+      "costaBlurb": "Nasz rynek macierzysty — słoneczne życie na hiszpańskim wybrzeżu, od apartamentów przy plaży po wille w dolinie golfowej.",
+      "costaCta": "Poznaj Costa del Sol",
+      "miamiName": "Miami",
+      "miamiBlurb": "Apartamenty nad wodą i tętniące życiem dzielnice przy plaży na atlantyckim wybrzeżu Florydy.",
+      "miamiCta": "Zapytaj o Miami",
+      "dubaiName": "Dubaj",
+      "dubaiBlurb": "Ikoniczne wieżowce i życie przy wybrzeżu na jednym z najszybciej rozwijających się rynków nieruchomości na świecie.",
+      "dubaiCta": "Zapytaj o Dubaj"
     }
   },
   "Property": {
@@ -222,5 +235,21 @@
     "placeholder": "Adres e-mail",
     "subscribe": "Zapisz się",
     "close": "Zamknij"
+  },
+  "Regions": {
+    "label": "Region",
+    "costaDelSol": "Costa del Sol",
+    "miami": "Miami",
+    "dubai": "Dubaj"
+  },
+  "MarketHub": {
+    "eyebrow": "Nasze rynki",
+    "miamiIntro": "The Shore Estates wprowadza swoją zaufaną obsługę w języku angielskim do Miami — apartamenty nad wodą i tętniące życiem dzielnice przy plaży na atlantyckim wybrzeżu Florydy. (Tekst tymczasowy — ostateczna treść wkrótce.)",
+    "dubaiIntro": "The Shore Estates wprowadza swoją zaufaną obsługę w języku angielskim do Dubaju — ikoniczne wieżowce i życie przy wybrzeżu na jednym z najszybciej rozwijających się rynków nieruchomości na świecie. (Tekst tymczasowy — ostateczna treść wkrótce.)",
+    "comingSoonTitle": "Oferty nieruchomości dla {market} już wkrótce",
+    "comingSoonBody": "Otwieramy rynek {market}. Pełna, przeszukiwalna lista ofert pojawi się tutaj wkrótce — skontaktuj się z nami, a będziemy Cię informować.",
+    "ctaTitle": "Zainteresowany rynkiem {market}? Skontaktuj się",
+    "ctaBody": "Napisz nam, czego szukasz w {market}, a odpowiemy osobiście — ten sam zespół i standard obsługi co dla naszych klientów na Costa del Sol.",
+    "backHome": "Powrót do Costa del Sol"
   }
 }

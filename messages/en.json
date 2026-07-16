@@ -80,6 +80,19 @@
       "eyebrow": "News & Insight",
       "title": "Inspiration from the Coast",
       "all": "All Articles"
+    },
+    "markets": {
+      "eyebrow": "Where We Operate",
+      "title": "Three Coastlines, One Standard of Service",
+      "costaName": "Costa del Sol",
+      "costaBlurb": "Our home market — sun-soaked Spanish coastal living, from beachfront apartments to golf-valley villas.",
+      "costaCta": "Explore Costa del Sol",
+      "miamiName": "Miami",
+      "miamiBlurb": "Waterfront condos and vibrant beachside neighbourhoods on Florida's Atlantic coast.",
+      "miamiCta": "Enquire about Miami",
+      "dubaiName": "Dubai",
+      "dubaiBlurb": "Landmark towers and coastline living in one of the world's fastest-growing property markets.",
+      "dubaiCta": "Enquire about Dubai"
     }
   },
   "Property": {
@@ -222,5 +235,21 @@
     "placeholder": "Email address",
     "subscribe": "Subscribe",
     "close": "Close"
+  },
+  "Regions": {
+    "label": "Region",
+    "costaDelSol": "Costa del Sol",
+    "miami": "Miami",
+    "dubai": "Dubai"
+  },
+  "MarketHub": {
+    "eyebrow": "Our Markets",
+    "miamiIntro": "The Shore Estates is bringing its trusted, English-speaking service to Miami — waterfront condos and vibrant beachside neighbourhoods on Florida's Atlantic coast. (Placeholder copy — final text to follow.)",
+    "dubaiIntro": "The Shore Estates is bringing its trusted, English-speaking service to Dubai — landmark towers and coastline living in one of the world's fastest-growing property markets. (Placeholder copy — final text to follow.)",
+    "comingSoonTitle": "Property listings for {market} coming soon",
+    "comingSoonBody": "We're opening up {market}. Full searchable listings will live here soon — get in touch and we'll keep you posted.",
+    "ctaTitle": "Interested in {market}? Get in touch",
+    "ctaBody": "Tell us what you're looking for in {market} and we'll respond personally — the same team and standard of service as our Costa del Sol clients.",
+    "backHome": "Back to Costa del Sol"
   }
 }

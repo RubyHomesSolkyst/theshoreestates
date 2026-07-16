@@ -13,7 +13,7 @@ const LOCALE_META: Record<Locale, { code: FlagCode; label: string }> = {
   ro: { code: "RO", label: "Română" },
   fr: { code: "FR", label: "Français" },
   nl: { code: "NL", label: "Nederlands" },
-  "nl-be": { code: "BE", label: "Nederlands (BE)" },
+  "nl-be": { code: "BE", label: "Belgian" },
   hu: { code: "HU", label: "Magyar" },
 };
 

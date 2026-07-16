@@ -1,1 +1,255 @@
-{}
+{
+  "Meta": {
+    "siteName": "The Shore Estates",
+    "defaultTitle": "The Shore Estates — Proprietăți pe Costa del Sol",
+    "defaultDescription": "Consultanță imobiliară de încredere pe Costa del Sol, cu asistență în limba engleză — de la prima vizionare până la predarea cheilor."
+  },
+  "Nav": {
+    "home": "Acasă",
+    "about": "Despre noi",
+    "guides": "Ghiduri",
+    "buyerGuide": "Ghidul cumpărătorului",
+    "sellerGuide": "Ghidul vânzătorului",
+    "developments": "Ansambluri noi",
+    "resale": "Proprietăți la revânzare",
+    "news": "Noutăți",
+    "contact": "Contact",
+    "bookCall": "Programează o discuție",
+    "favorites": "Favorite"
+  },
+  "Home": {
+    "hero": {
+      "eyebrow": "Costa del Sol, Spania",
+      "titleLead": "Viața ta pe litoralul Spaniei,",
+      "titleAccent": "însoțită de la început până la sfârșit.",
+      "subtitle": "Consultanță imobiliară de încredere pe Costa del Sol, cu asistență în limba engleză — de la prima vizionare până la predarea cheilor."
+    },
+    "search": {
+      "minPrice": "Preț min.",
+      "propertyType": "Tip de proprietate",
+      "bedrooms": "Dormitoare",
+      "location": "Localizare",
+      "allAreas": "Toate zonele",
+      "any": "Oricare",
+      "search": "Caută",
+      "types": {
+        "apartment": "Apartament",
+        "villa": "Vilă",
+        "penthouse": "Penthouse",
+        "townhouse": "Casă înșiruită",
+        "plot": "Teren"
+      }
+    },
+    "trustBar": {
+      "salesVolume": "Volum de vânzări",
+      "localExpertise": "Experiență locală",
+      "localExpertiseValue": "12 ani",
+      "englishSupport": "Asistență în limba engleză"
+    },
+    "lifestyle": {
+      "resaleEyebrow": "Revânzare",
+      "resaleTitle": "Eleganță consacrată",
+      "resaleCta": "Vezi proprietățile la revânzare",
+      "newBuildEyebrow": "Construcție nouă",
+      "newBuildTitle": "Locuire modernă",
+      "newBuildCta": "Descoperă ansamblurile noi"
+    },
+    "featured": {
+      "eyebrow": "Portofoliu",
+      "title": "Proprietăți recomandate",
+      "subtitle": "Cele mai recent actualizate oferte de pe piață.",
+      "viewAll": "Vezi întregul portofoliu"
+    },
+    "areas": {
+      "eyebrow": "Destinații",
+      "title": "Explorează zonele"
+    },
+    "seller": {
+      "eyebrow": "Serviciul nostru de vânzare",
+      "title": "Te gândești să vinzi?",
+      "body": "Îți prezentăm proprietatea cumpărătorilor potriviți prin rețeaua noastră internațională — cu o comunicare clară în limba engleză pe tot parcursul procesului.",
+      "cta": "Solicită o evaluare"
+    },
+    "buyer": {
+      "eyebrow": "Ghidul cumpărătorului, Spania",
+      "title": "O achiziție sigură a locuinței",
+      "body": "Te ghidăm pe tot parcursul procesului — de la cerințele legale până în ziua în care primești cheile.",
+      "cta": "Citește ghidul cumpărătorului"
+    },
+    "news": {
+      "eyebrow": "Noutăți și analize",
+      "title": "Inspirație de pe litoral",
+      "all": "Toate articolele"
+    },
+    "markets": {
+      "eyebrow": "Unde activăm",
+      "title": "Trei litoraluri, un singur standard de servicii",
+      "costaName": "Costa del Sol",
+      "costaBlurb": "Piața noastră de bază — viață pe litoralul însorit al Spaniei, de la apartamente pe malul mării până la vile în valea de golf.",
+      "costaCta": "Explorează Costa del Sol",
+      "miamiName": "Miami",
+      "miamiBlurb": "Apartamente pe malul apei și cartiere pline de viață de pe litoralul atlantic al Floridei.",
+      "miamiCta": "Întreabă despre Miami",
+      "dubaiName": "Dubai",
+      "dubaiBlurb": "Turnuri emblematice și locuire pe litoral, pe una dintre cele mai dinamice piețe imobiliare din lume.",
+      "dubaiCta": "Întreabă despre Dubai"
+    }
+  },
+  "Property": {
+    "beds": "{count, plural, one {# dormitor} few {# dormitoare} other {# de dormitoare}}",
+    "baths": "{count, plural, one {# baie} few {# băi} other {# de băi}}",
+    "built": "{value} m² construiți",
+    "terrace": "{value} m² terasă",
+    "plot": "{value} m² teren",
+    "reference": "Ref.",
+    "viewDetails": "Vezi detalii",
+    "addFavorite": "Adaugă la favorite",
+    "removeFavorite": "Elimină de la favorite",
+    "tags": {
+      "new": "Nou",
+      "reduced": "Preț redus",
+      "opportunity": "Oportunitate"
+    }
+  },
+  "ResalePage": {
+    "eyebrow": "Portofoliu",
+    "title": "Proprietăți la revânzare",
+    "subtitle": "Răsfoiește întregul nostru portofoliu de locuințe consacrate de pe Costa del Sol.",
+    "resultsCount": "{count, plural, =0 {Nicio proprietate găsită} one {# proprietate} few {# proprietăți} other {# de proprietăți}}",
+    "noResults": "Nicio proprietate nu corespunde căutării tale. Încearcă să extinzi filtrele."
+  },
+  "DevelopmentsPage": {
+    "eyebrow": "Construcție nouă",
+    "title": "Ansambluri noi",
+    "subtitle": "Locuințe în plan și nou construite, de la cei mai de încredere dezvoltatori de pe litoral.",
+    "resultsCount": "{count, plural, =0 {Niciun ansamblu găsit} one {# ansamblu} few {# ansambluri} other {# de ansambluri}}",
+    "noResults": "Niciun ansamblu nou nu corespunde căutării tale în acest moment."
+  },
+  "PropertyDetail": {
+    "backToList": "Înapoi la proprietăți",
+    "overview": "Prezentare generală",
+    "features": "Caracteristici",
+    "enquire": "Solicită informații despre această proprietate",
+    "enquiryIntro": "Ești interesat de {ref}? Trimite-ne un mesaj și te vom contacta.",
+    "location": "Localizare",
+    "notFoundTitle": "Proprietatea nu a fost găsită",
+    "notFoundBody": "Este posibil ca această ofertă să fi fost vândută sau retrasă. Răsfoiește portofoliul nostru actual.",
+    "spec": {
+      "beds": "Dormitoare",
+      "baths": "Băi",
+      "built": "Suprafață construită",
+      "terrace": "Terasă",
+      "plot": "Teren",
+      "location": "Localizare",
+      "type": "Tip",
+      "reference": "Referință"
+    }
+  },
+  "BuyerGuide": {
+    "eyebrow": "Ghidul cumpărătorului, Spania",
+    "title": "O achiziție sigură a locuinței",
+    "intro": "Cumpărarea pe Costa del Sol este simplă atunci când cunoști pașii. Iată cum te ghidăm de la prima vizionare până în ziua în care primești cheile.",
+    "steps": {
+      "s1Title": "1. Obținerea numărului NIE",
+      "s1Body": "Orice cumpărător străin are nevoie de un Número de Identidad de Extranjero (NIE) — un număr spaniol de identificare fiscală. Te ajutăm să îl obții înainte de achiziție.",
+      "s2Title": "2. Deschiderea unui cont bancar spaniol",
+      "s2Body": "Un cont local simplifică mult plata proprietății, a taxelor și a utilităților. Îți putem recomanda bănci care oferă asistență în limba engleză.",
+      "s3Title": "3. Rezervare și verificări juridice",
+      "s3Body": "Un contract de rezervare scoate proprietatea de pe piață. Avocatul tău independent verifică apoi dreptul de proprietate, datoriile și autorizațiile.",
+      "s4Title": "4. Contractul privat de vânzare-cumpărare",
+      "s4Body": "Semnat de obicei cu un avans de 10%, acesta fixează prețul și data finalizării și stabilește condițiile pentru ambele părți.",
+      "s5Title": "5. Finalizarea la notar",
+      "s5Body": "Actul de proprietate (escritura) se semnează în fața notarului, se achită suma rămasă, iar cheile îți aparțin."
+    },
+    "cta": "Discută cu noi despre achiziție"
+  },
+  "SellerGuide": {
+    "eyebrow": "Serviciul nostru de vânzare",
+    "title": "Te gândești să vinzi?",
+    "intro": "Îți prezentăm proprietatea cumpărătorilor potriviți prin rețeaua noastră internațională, cu o comunicare clară în limba engleză pe tot parcursul.",
+    "points": {
+      "p1Title": "Evaluare corectă",
+      "p1Body": "Îți evaluăm proprietatea pe baza unor date reale și actuale de piață — fără presupuneri.",
+      "p2Title": "Acoperire internațională",
+      "p2Body": "Oferta ta este promovată cumpărătorilor calificați din Regatul Unit și din întreaga Europă, în limba lor.",
+      "p3Title": "Gestionat de la început până la sfârșit",
+      "p3Body": "De la fotografii și acte până la negociere și notar, gestionăm procesul pentru tine."
+    },
+    "formTitle": "Solicită o evaluare gratuită",
+    "cta": "Solicită o evaluare"
+  },
+  "About": {
+    "eyebrow": "Despre noi",
+    "title": "Partenerul tău dedicat pe litoral",
+    "body": "The Shore Estates este o agenție boutique specializată pe Costa del Sol. Oferim servicii personalizate și consultanță clară în limba engleză, de la prima solicitare până la finalizare — și mult timp după aceea.",
+    "statsTitle": "De ce au încredere cumpărătorii în noi",
+    "teamTitle": "Echipa"
+  },
+  "News": {
+    "eyebrow": "Noutăți și analize",
+    "title": "Inspirație de pe litoral",
+    "subtitle": "Ghiduri, note de piață și prezentări ale zonelor de pe Costa del Sol.",
+    "readMore": "Citește mai mult",
+    "articles": {
+      "a1Tag": "Ansambluri noi",
+      "a1Title": "Ce se lansează pe litoral anul acesta",
+      "a1Excerpt": "O privire asupra celor mai așteptate proiecte noi care apar pe Costa del Sol.",
+      "a2Tag": "Ghidul cumpărătorului",
+      "a2Title": "Numărul NIE și procesul notarial, pe înțelesul tuturor",
+      "a2Excerpt": "Cele două documente spaniole pe care fiecare cumpărător străin ar trebui să le cunoască.",
+      "a3Tag": "Ghid de zonă",
+      "a3Title": "De ce este Estepona favorita discretă a Costa del Sol",
+      "a3Excerpt": "Grădini, un oraș vechi renăscut și valoare autentică — steaua discretă a litoralului."
+    }
+  },
+  "Contact": {
+    "eyebrow": "Contact",
+    "title": "Să vorbim despre mutarea ta",
+    "subtitle": "Spune-ne ce cauți și îți vom răspunde prompt — în limba engleză.",
+    "phoneLabel": "Telefon",
+    "emailLabel": "E-mail",
+    "officeLabel": "Birou",
+    "office": "Costa del Sol, Spania",
+    "form": {
+      "name": "Nume",
+      "email": "Adresă de e-mail",
+      "phone": "Telefon (opțional)",
+      "message": "Cum te putem ajuta?",
+      "submit": "Trimite solicitarea"
+    }
+  },
+  "Footer": {
+    "tagline": "Partenerul tău dedicat pentru proprietăți pe litoralul Costa del Sol. Servicii personalizate și consultanță clară în limba engleză, de la prima solicitare până la finalizare.",
+    "navigate": "Navigare",
+    "popularAreas": "Zone populare",
+    "contact": "Contact",
+    "subscribe": "Abonează-te la noutăți",
+    "rights": "© {year} The Shore Estates. Toate drepturile rezervate.",
+    "privacy": "Confidențialitate",
+    "terms": "Termeni"
+  },
+  "Newsletter": {
+    "brand": "The Shore Estates",
+    "title": "Rămâi la curent",
+    "body": "Abonează-te pentru a primi oferte noi și noutăți de piață de pe Costa del Sol, direct în inbox.",
+    "placeholder": "Adresă de e-mail",
+    "subscribe": "Abonează-te",
+    "close": "Închide"
+  },
+  "Regions": {
+    "label": "Regiune",
+    "costaDelSol": "Costa del Sol",
+    "miami": "Miami",
+    "dubai": "Dubai"
+  },
+  "MarketHub": {
+    "eyebrow": "Piețele noastre",
+    "miamiIntro": "The Shore Estates își extinde serviciile de încredere, cu asistență în limba engleză, către Miami — apartamente pe malul apei și cartiere pline de viață de pe litoralul atlantic al Floridei. (Text provizoriu — textul final va urma.)",
+    "dubaiIntro": "The Shore Estates își extinde serviciile de încredere, cu asistență în limba engleză, către Dubai — turnuri emblematice și locuire pe litoral, pe una dintre cele mai dinamice piețe imobiliare din lume. (Text provizoriu — textul final va urma.)",
+    "comingSoonTitle": "Ofertele imobiliare pentru {market} vor fi disponibile în curând",
+    "comingSoonBody": "Deschidem piața {market}. Lista completă și filtrabilă de oferte va apărea aici în curând — contactează-ne și te vom ține la curent.",
+    "ctaTitle": "Ești interesat de {market}? Contactează-ne",
+    "ctaBody": "Spune-ne ce cauți în {market}, iar noi îți vom răspunde personal — aceeași echipă și același standard de servicii ca pentru clienții noștri de pe Costa del Sol.",
+    "backHome": "Înapoi la Costa del Sol"
+  }
+}
