@@ -1,0 +1,10 @@
+[build]
+  command = "npm run build"
+
+[build.environment]
+  NODE_VERSION = "22"
+
+# Official Next.js runtime — handles the App Router, next-intl middleware
+# (Proxy), image optimization and per-locale prerendered pages.
+[[plugins]]
+  package = "@netlify/plugin-nextjs"

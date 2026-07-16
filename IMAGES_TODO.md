@@ -8,27 +8,28 @@ update the `src` in the referenced component.
 Licensing rule: only ship images we hold a valid licence for. **Do not** use the
 watermarked Shutterstock comps.
 
-## ⛔ Placeholder images — replace before launch
+## ⛔ Watermarked placeholder images — replace before launch
 
-Clean, generated **placeholder images** (no watermark baked in) in
-`public/images/placeholder-watermarked/`. They are stylised stand-ins (sunset +
-skyline/palm illustrations), **not licensed photography**, and must be replaced
-with purchased photos before launch. The Miami/Dubai market cards show a small
-corner badge "Placeholder — replace before launch" (rendered in the UI, not on
-the image itself).
+**Watermarked Shutterstock comps** in `public/images/placeholder-watermarked/`,
+used as temporary placeholders. They carry visible "shutterstock" watermarks and
+are **not licensed** — replace with purchased photography before launch. Card
+usages also show a "Placeholder — replace before launch" badge in the UI.
 
-| File        | Subject placeholder    | Used in                                                      |
-| ----------- | ---------------------- | ------------------------------------------------------------ |
-| `miami-1.jpg` | Miami skyline        | **Miami** market card + `/miami` hub hero (badged)           |
-| `dubai-1.jpg` | Dubai skyline        | **Dubai** market card + `/dubai` hub hero (badged)           |
-| `miami-2.jpg` | Miami skyline + palm | ⏳ Also the Costa card fallback; reserve for a future Miami section |
-| `dubai-2.jpg` | Dubai skyline        | ⏳ Unused — reserve for a future Dubai landing section / About / News |
+| File          | Subject                              | Used in                                                    |
+| ------------- | ------------------------------------ | ---------------------------------------------------------- |
+| `Miami-1.jpg` | Miami beach & skyline (aerial)       | **Miami** market card + `/miami` hub hero (badged)         |
+| `Dubai-1.jpg` | Dubai Marina                         | **Dubai** market card + `/dubai` hub hero (badged)         |
+| `Miami-2.jpg` | Skyscrapers & palm (upward angle)    | **Home hero background** (no UI badge) + Costa card fallback |
+| `Dubai-2.jpg` | Dubai skyline                        | ⏳ Unused — reserve for a future Dubai section              |
 
-## ⚠️ Costa del Sol — generated stand-in, replace with the licensed photo
+> Also present but **unreferenced**: 14 `stock-photo-*.jpg` Shutterstock comps.
+> Not used by any code; recommend deleting so they don't ship.
+
+## Costa del Sol — home-market photo
 
 | Where                         | File                                           | State                                        |
 | ----------------------------- | ---------------------------------------------- | -------------------------------------------- |
-| **Costa del Sol** market card | `public/images/final/sykkel-i-palmealle.jpg`   | ⚠️ Currently a **generated stylised stand-in** (palm sunset), **not** the licensed photo. The real `sykkel-i-palmealle.jpg` was never in the repo — overwrite this file with the licensed image and the card updates automatically (no code change, no badge). |
+| **Costa del Sol** market card | `public/images/final/sykkel-i-palmealle.jpg`   | Clean photo (cyclist on a palm-lined promenade), no visible watermark. Confirm licensing before launch. |
 
 ## Other placeholders (lower priority — general prototype imagery)
 

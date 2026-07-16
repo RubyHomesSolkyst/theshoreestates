@@ -25,7 +25,7 @@ export default async function DubaiPage({
   return (
     <MarketHub
       name={tr("dubai")}
-      image="/images/placeholder-watermarked/dubai-1.jpg"
+      image="/images/placeholder-watermarked/Dubai-1.jpg"
       intro={t("dubaiIntro")}
     />
   );

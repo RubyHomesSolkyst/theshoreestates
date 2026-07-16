@@ -31,7 +31,7 @@ export default async function HomePage({
       cta: t("markets.costaCta"),
       href: "/resale-properties",
       src: "/images/final/sykkel-i-palmealle.jpg",
-      fallback: "/images/placeholder-watermarked/miami-2.jpg",
+      fallback: "/images/placeholder-watermarked/Miami-2.jpg",
       placeholder: false,
     },
     {
@@ -40,7 +40,7 @@ export default async function HomePage({
       blurb: t("markets.miamiBlurb"),
       cta: t("markets.miamiCta"),
       href: "/contact",
-      src: "/images/placeholder-watermarked/miami-1.jpg",
+      src: "/images/placeholder-watermarked/Miami-1.jpg",
       fallback: "https://picsum.photos/seed/miami-skyline/1200/900",
       placeholder: true,
     },
@@ -50,7 +50,7 @@ export default async function HomePage({
       blurb: t("markets.dubaiBlurb"),
       cta: t("markets.dubaiCta"),
       href: "/contact",
-      src: "/images/placeholder-watermarked/dubai-1.jpg",
+      src: "/images/placeholder-watermarked/Dubai-1.jpg",
       fallback: "https://picsum.photos/seed/dubai-coastline/1200/900",
       placeholder: true,
     },
@@ -60,6 +60,17 @@ export default async function HomePage({
     <>
       {/* HERO */}
       <section id="home" className="relative overflow-hidden bg-ink">
+        {/* Background image (watermarked placeholder — see IMAGES_TODO.md).
+            object-position biased slightly upward so the palm crown / tower
+            tops stay in frame across wide-desktop and tall-mobile crops. */}
+        <img
+          src="/images/placeholder-watermarked/Miami-2.jpg"
+          alt=""
+          aria-hidden="true"
+          className="absolute inset-0 h-full w-full object-cover object-[center_30%]"
+        />
+        {/* Existing dark gradient overlay (navy → gold glow) kept on top of the
+            image so the hero text and search panel stay legible. */}
         <div
           className="absolute inset-0 opacity-60"
           style={{

@@ -25,7 +25,7 @@ export default async function MiamiPage({
   return (
     <MarketHub
       name={tr("miami")}
-      image="/images/placeholder-watermarked/miami-1.jpg"
+      image="/images/placeholder-watermarked/Miami-1.jpg"
       intro={t("miamiIntro")}
     />
   );
