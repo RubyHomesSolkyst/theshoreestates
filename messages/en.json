@@ -1,0 +1,225 @@
+{
+  "Meta": {
+    "siteName": "The Shore Estates",
+    "defaultTitle": "The Shore Estates — Costa del Sol Property",
+    "defaultDescription": "Trusted, English-speaking property guidance along the Costa del Sol — from first viewing to handing over the keys."
+  },
+  "Nav": {
+    "home": "Home",
+    "about": "About",
+    "buyerGuide": "Buyer's Guide",
+    "sellerGuide": "Seller's Guide",
+    "developments": "New Developments",
+    "resale": "Resale Properties",
+    "news": "News",
+    "contact": "Contact",
+    "bookCall": "Book a Call",
+    "favorites": "Favourites"
+  },
+  "Home": {
+    "hero": {
+      "eyebrow": "Costa del Sol, Spain",
+      "titleLead": "Your coastal life in Spain,",
+      "titleAccent": "guided end to end.",
+      "subtitle": "Trusted, English-speaking property guidance along the Costa del Sol — from first viewing to handing over the keys."
+    },
+    "search": {
+      "minPrice": "Min. Price",
+      "propertyType": "Property Type",
+      "bedrooms": "Bedrooms",
+      "location": "Location",
+      "allAreas": "All Areas",
+      "any": "Any",
+      "search": "Search",
+      "types": {
+        "apartment": "Apartment",
+        "villa": "Villa",
+        "penthouse": "Penthouse",
+        "townhouse": "Townhouse",
+        "plot": "Plot"
+      }
+    },
+    "trustBar": {
+      "salesVolume": "Sales Volume",
+      "localExpertise": "Local Expertise",
+      "localExpertiseValue": "12 Years",
+      "englishSupport": "English-Speaking Support"
+    },
+    "lifestyle": {
+      "resaleEyebrow": "Resale",
+      "resaleTitle": "Established Elegance",
+      "resaleCta": "View Resale Properties",
+      "newBuildEyebrow": "New Build",
+      "newBuildTitle": "Modern Living",
+      "newBuildCta": "Explore New Developments"
+    },
+    "featured": {
+      "eyebrow": "Portfolio",
+      "title": "Featured Properties",
+      "subtitle": "Our most recently updated listings on the market.",
+      "viewAll": "View Full Portfolio"
+    },
+    "areas": {
+      "eyebrow": "Destinations",
+      "title": "Explore the Areas"
+    },
+    "seller": {
+      "eyebrow": "Our Selling Service",
+      "title": "Thinking of Selling?",
+      "body": "We put your property in front of the right buyers through our international network — with clear communication in English throughout the process.",
+      "cta": "Request a Valuation"
+    },
+    "buyer": {
+      "eyebrow": "Buyer's Guide, Spain",
+      "title": "A Safe Home-Buying Journey",
+      "body": "We guide you through the full process — from legal requirements to the day you collect the keys.",
+      "cta": "Read the Buyer's Guide"
+    },
+    "news": {
+      "eyebrow": "News & Insight",
+      "title": "Inspiration from the Coast",
+      "all": "All Articles"
+    }
+  },
+  "Property": {
+    "beds": "{count, plural, one {# bed} other {# beds}}",
+    "baths": "{count, plural, one {# bath} other {# baths}}",
+    "built": "{value} m² built",
+    "terrace": "{value} m² terrace",
+    "plot": "{value} m² plot",
+    "reference": "Ref.",
+    "viewDetails": "View Details",
+    "addFavorite": "Add to favourites",
+    "removeFavorite": "Remove from favourites",
+    "tags": {
+      "new": "New",
+      "reduced": "Reduced",
+      "opportunity": "Opportunity"
+    }
+  },
+  "ResalePage": {
+    "eyebrow": "Portfolio",
+    "title": "Resale Properties",
+    "subtitle": "Browse our full portfolio of established homes along the Costa del Sol.",
+    "resultsCount": "{count, plural, =0 {No properties found} one {# property} other {# properties}}",
+    "noResults": "No properties match your search. Try widening your filters."
+  },
+  "DevelopmentsPage": {
+    "eyebrow": "New Build",
+    "title": "New Developments",
+    "subtitle": "Off-plan and newly built homes from the coast's most trusted developers.",
+    "resultsCount": "{count, plural, =0 {No developments found} one {# development} other {# developments}}",
+    "noResults": "No new developments match your search right now."
+  },
+  "PropertyDetail": {
+    "backToList": "Back to properties",
+    "overview": "Overview",
+    "features": "Features",
+    "enquire": "Enquire about this property",
+    "enquiryIntro": "Interested in {ref}? Send us a message and we'll be in touch.",
+    "location": "Location",
+    "notFoundTitle": "Property not found",
+    "notFoundBody": "This listing may have been sold or removed. Browse our current portfolio instead.",
+    "spec": {
+      "beds": "Bedrooms",
+      "baths": "Bathrooms",
+      "built": "Built area",
+      "terrace": "Terrace",
+      "plot": "Plot",
+      "location": "Location",
+      "type": "Type",
+      "reference": "Reference"
+    }
+  },
+  "BuyerGuide": {
+    "eyebrow": "Buyer's Guide, Spain",
+    "title": "A Safe Home-Buying Journey",
+    "intro": "Buying on the Costa del Sol is straightforward when you know the steps. Here's how we guide you from first viewing to the day you collect the keys.",
+    "steps": {
+      "s1Title": "1. Getting your NIE",
+      "s1Body": "Every foreign buyer needs a Número de Identidad de Extranjero (NIE) — a Spanish tax identification number. We help you arrange it before you buy.",
+      "s2Title": "2. Opening a Spanish bank account",
+      "s2Body": "A local account makes paying for the property, taxes and utilities far simpler. We can introduce you to English-speaking banks.",
+      "s3Title": "3. Reservation & due diligence",
+      "s3Body": "A reservation contract takes the property off the market. Your independent lawyer then checks ownership, debts and licences.",
+      "s4Title": "4. Private purchase contract",
+      "s4Body": "Usually signed with a 10% deposit, this fixes the price and completion date and sets out the terms for both parties.",
+      "s5Title": "5. Completion at the notary",
+      "s5Body": "The title deed (escritura) is signed before a notary, the balance is paid, and the keys are yours."
+    },
+    "cta": "Talk to us about buying"
+  },
+  "SellerGuide": {
+    "eyebrow": "Our Selling Service",
+    "title": "Thinking of Selling?",
+    "intro": "We put your property in front of the right buyers through our international network, with clear communication in English throughout.",
+    "points": {
+      "p1Title": "Accurate valuation",
+      "p1Body": "We price your property against real, current market evidence — not guesswork.",
+      "p2Title": "International reach",
+      "p2Body": "Your listing is marketed to qualified buyers across the UK and Europe, in their own language.",
+      "p3Title": "Handled end to end",
+      "p3Body": "From photography and paperwork to negotiation and notary, we manage the process for you."
+    },
+    "formTitle": "Request a free valuation",
+    "cta": "Request a Valuation"
+  },
+  "About": {
+    "eyebrow": "About Us",
+    "title": "Your dedicated partner on the coast",
+    "body": "The Shore Estates is a boutique agency focused on the Costa del Sol. We offer personal service and clear, English-language guidance from first enquiry to completion — and long after.",
+    "statsTitle": "Why buyers trust us",
+    "teamTitle": "The team"
+  },
+  "News": {
+    "eyebrow": "News & Insight",
+    "title": "Inspiration from the Coast",
+    "subtitle": "Guides, market notes and area spotlights from the Costa del Sol.",
+    "readMore": "Read more",
+    "articles": {
+      "a1Tag": "New Developments",
+      "a1Title": "What's Launching on the Coast This Year",
+      "a1Excerpt": "A look at the most anticipated new-build projects arriving along the Costa del Sol.",
+      "a2Tag": "Buyer's Guide",
+      "a2Title": "Understanding the NIE Number and Notary Process",
+      "a2Excerpt": "The two pieces of Spanish paperwork every international buyer should understand.",
+      "a3Tag": "Area Guide",
+      "a3Title": "Why Estepona Is Costa del Sol's Quiet Favourite",
+      "a3Excerpt": "Gardens, a reborn old town and genuine value — inside the coast's understated star."
+    }
+  },
+  "Contact": {
+    "eyebrow": "Contact",
+    "title": "Let's talk about your move",
+    "subtitle": "Tell us what you're looking for and we'll get back to you — in English, promptly.",
+    "phoneLabel": "Phone",
+    "emailLabel": "Email",
+    "officeLabel": "Office",
+    "office": "Costa del Sol, Spain",
+    "form": {
+      "name": "Name",
+      "email": "Email address",
+      "phone": "Phone (optional)",
+      "message": "How can we help?",
+      "submit": "Send Enquiry"
+    }
+  },
+  "Footer": {
+    "tagline": "Your dedicated partner for coastal property on the Costa del Sol. Personal service and clear, English-language guidance from first enquiry to completion.",
+    "navigate": "Navigate",
+    "popularAreas": "Popular Areas",
+    "contact": "Contact",
+    "subscribe": "Subscribe to Updates",
+    "rights": "© {year} The Shore Estates. All rights reserved.",
+    "privacy": "Privacy",
+    "terms": "Terms"
+  },
+  "Newsletter": {
+    "brand": "The Shore Estates",
+    "title": "Stay Updated",
+    "body": "Sign up for new listings and market updates from the Costa del Sol, straight to your inbox.",
+    "placeholder": "Email address",
+    "subscribe": "Subscribe",
+    "close": "Close"
+  }
+}
