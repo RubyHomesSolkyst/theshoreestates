@@ -19,9 +19,10 @@ export default async function HomePage({
 
   const featured = properties.slice(0, 6);
 
-  // Markets we operate in. Costa del Sol uses a licensed local image; Miami and
-  // Dubai use free placeholders until their images are purchased (see
-  // IMAGES_TODO.md). MarketImage falls back to `fallback` if `src` 404s.
+  // Markets we operate in. Costa del Sol points at the licensed image path
+  // (a clean coastal stand-in until the real photo is dropped in). Miami and
+  // Dubai use clean placeholder images and carry a "replace before launch"
+  // badge. MarketImage falls back to `fallback` if `src` 404s.
   const markets = [
     {
       key: "costa",
@@ -30,7 +31,8 @@ export default async function HomePage({
       cta: t("markets.costaCta"),
       href: "/resale-properties",
       src: "/images/final/sykkel-i-palmealle.jpg",
-      fallback: "https://picsum.photos/seed/costa-del-sol/1200/900",
+      fallback: "/images/placeholder-watermarked/miami-2.jpg",
+      placeholder: false,
     },
     {
       key: "miami",
@@ -40,6 +42,7 @@ export default async function HomePage({
       href: "/contact",
       src: "/images/placeholder-watermarked/miami-1.jpg",
       fallback: "https://picsum.photos/seed/miami-skyline/1200/900",
+      placeholder: true,
     },
     {
       key: "dubai",
@@ -49,6 +52,7 @@ export default async function HomePage({
       href: "/contact",
       src: "/images/placeholder-watermarked/dubai-1.jpg",
       fallback: "https://picsum.photos/seed/dubai-coastline/1200/900",
+      placeholder: true,
     },
   ];
 
@@ -120,6 +124,11 @@ export default async function HomePage({
                 className="h-full w-full object-cover transition-transform duration-700 group-hover:scale-105"
               />
               <div className="absolute inset-0 bg-gradient-to-t from-ink/85 via-ink/25 to-transparent" />
+              {m.placeholder && (
+                <span className="absolute right-3 top-3 rounded-sm bg-ink/70 px-2 py-0.5 text-[10px] uppercase tracking-wide text-white/90 backdrop-blur-sm">
+                  Placeholder — replace before launch
+                </span>
+              )}
               <div className="absolute inset-x-6 bottom-6 text-white">
                 <h3 className="font-display text-2xl">{m.name}</h3>
                 <p className="mt-2 text-sm leading-relaxed text-white/80">

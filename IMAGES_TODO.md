@@ -8,29 +8,27 @@ update the `src` in the referenced component.
 Licensing rule: only ship images we hold a valid licence for. **Do not** use the
 watermarked Shutterstock comps.
 
-## ⛔ Watermarked placeholders — replace before launch
+## ⛔ Placeholder images — replace before launch
 
-Temporary **watermarked placeholder** files in
-`public/images/placeholder-watermarked/`. These are generated stand-ins (not
-licensed photography) and **must be replaced with purchased images before
-launch**.
+Clean, generated **placeholder images** (no watermark baked in) in
+`public/images/placeholder-watermarked/`. They are stylised stand-ins (sunset +
+skyline/palm illustrations), **not licensed photography**, and must be replaced
+with purchased photos before launch. The Miami/Dubai market cards show a small
+corner badge "Placeholder — replace before launch" (rendered in the UI, not on
+the image itself).
 
-| File        | Subject                                     | Used in                                              |
-| ----------- | ------------------------------------------- | ---------------------------------------------------- |
-| `dubai-1.jpg` | Dubai Marina — skyline & canal            | **Dubai** market card, home page (`page.tsx` markets) |
-| `dubai-2.jpg` | Palm Jumeirah — aerial view of villas     | ⏳ Unused — reserve for a future Dubai landing section / About / News |
-| `miami-1.jpg` | Miami Beach — beach & skyline, aerial     | **Miami** market card, home page (`page.tsx` markets) |
-| `miami-2.jpg` | Miami high-rise — tower & palm, low angle  | ⏳ Unused — reserve for a future Miami landing section / About / News |
+| File        | Subject placeholder    | Used in                                                      |
+| ----------- | ---------------------- | ------------------------------------------------------------ |
+| `miami-1.jpg` | Miami skyline        | **Miami** market card + `/miami` hub hero (badged)           |
+| `dubai-1.jpg` | Dubai skyline        | **Dubai** market card + `/dubai` hub hero (badged)           |
+| `miami-2.jpg` | Miami skyline + palm | ⏳ Also the Costa card fallback; reserve for a future Miami section |
+| `dubai-2.jpg` | Dubai skyline        | ⏳ Unused — reserve for a future Dubai landing section / About / News |
 
-> Each is marked **"watermarked placeholder — replace before launch."** The
-> market cards use `MarketImage`, which falls back to a picsum placeholder if the
-> file is ever missing.
+## ⚠️ Costa del Sol — generated stand-in, replace with the licensed photo
 
-## ⚠️ Licensed file expected but missing from repo
-
-| Where                         | Expected file                                  | State                                        |
+| Where                         | File                                           | State                                        |
 | ----------------------------- | ---------------------------------------------- | -------------------------------------------- |
-| **Costa del Sol** market card | `public/images/final/sykkel-i-palmealle.jpg`   | ⚠️ Referenced in code but **file is not in the project** — drop it in and the card will use it automatically (falls back to a placeholder until then) |
+| **Costa del Sol** market card | `public/images/final/sykkel-i-palmealle.jpg`   | ⚠️ Currently a **generated stylised stand-in** (palm sunset), **not** the licensed photo. The real `sykkel-i-palmealle.jpg` was never in the repo — overwrite this file with the licensed image and the card updates automatically (no code change, no badge). |
 
 ## Other placeholders (lower priority — general prototype imagery)
 
@@ -46,9 +44,10 @@ All still using `picsum.photos`:
 ## How the fallback works
 
 Market cards use `src/components/market-image.tsx`, which loads the given `src`
-and automatically falls back to a placeholder if the file 404s. So the Costa del
+and automatically falls back to `fallback` if the file 404s. So the Costa del
 Sol card will render the licensed photo the moment
-`public/images/final/sykkel-i-palmealle.jpg` exists — no code change needed.
+`public/images/final/sykkel-i-palmealle.jpg` is overwritten — no code change
+needed.
 
 ## Notes on local vs. remote images
 
