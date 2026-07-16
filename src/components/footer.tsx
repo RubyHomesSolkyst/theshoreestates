@@ -1,7 +1,7 @@
 import { getTranslations } from "next-intl/server";
 import { Phone } from "lucide-react";
 import { Link } from "@/i18n/navigation";
-import { navItems } from "@/config/nav";
+import { navLinks } from "@/config/nav";
 import { areas } from "@/data/areas";
 import { NewsletterButton } from "@/components/newsletter-button";
 
@@ -30,7 +30,7 @@ export async function Footer() {
             {t("navigate")}
           </div>
           <div className="flex flex-col gap-2 text-sm text-white/70">
-            {navItems.map((item) => (
+            {navLinks.map((item) => (
               <Link key={item.key} href={item.href} className="hover:text-white">
                 {tNav(item.key)}
               </Link>

@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 34" role="img" aria-label="The Shore Estates" fill="none">
+  <path d="M9 22a15 15 0 0 1 30 0Z" fill="#C9A227"/>
+  <path d="M15 22a9 9 0 0 1 18 0Z" fill="#12313F" fill-opacity="0.08"/>
+  <line x1="2" y1="22" x2="46" y2="22" stroke="#12313F" stroke-width="2.4" stroke-linecap="round"/>
+  <circle cx="24" cy="22" r="2.6" fill="#C9A227" stroke="#12313F" stroke-width="1.2"/>
+</svg>

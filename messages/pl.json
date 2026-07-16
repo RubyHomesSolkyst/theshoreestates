@@ -1,1 +1,226 @@
-{}
+{
+  "Meta": {
+    "siteName": "The Shore Estates",
+    "defaultTitle": "The Shore Estates — nieruchomości na Costa del Sol",
+    "defaultDescription": "Zaufane doradztwo w zakresie nieruchomości na Costa del Sol, z obsługą w języku angielskim — od pierwszego oglądania po przekazanie kluczy."
+  },
+  "Nav": {
+    "home": "Strona główna",
+    "about": "O nas",
+    "guides": "Poradniki",
+    "buyerGuide": "Poradnik kupującego",
+    "sellerGuide": "Poradnik sprzedającego",
+    "developments": "Nowe inwestycje",
+    "resale": "Rynek wtórny",
+    "news": "Aktualności",
+    "contact": "Kontakt",
+    "bookCall": "Umów rozmowę",
+    "favorites": "Ulubione"
+  },
+  "Home": {
+    "hero": {
+      "eyebrow": "Costa del Sol, Hiszpania",
+      "titleLead": "Twoje życie na hiszpańskim wybrzeżu,",
+      "titleAccent": "prowadzone od początku do końca.",
+      "subtitle": "Zaufane doradztwo w zakresie nieruchomości na Costa del Sol, z obsługą w języku angielskim — od pierwszego oglądania po przekazanie kluczy."
+    },
+    "search": {
+      "minPrice": "Cena min.",
+      "propertyType": "Typ nieruchomości",
+      "bedrooms": "Sypialnie",
+      "location": "Lokalizacja",
+      "allAreas": "Wszystkie obszary",
+      "any": "Dowolne",
+      "search": "Szukaj",
+      "types": {
+        "apartment": "Apartament",
+        "villa": "Willa",
+        "penthouse": "Penthouse",
+        "townhouse": "Dom szeregowy",
+        "plot": "Działka"
+      }
+    },
+    "trustBar": {
+      "salesVolume": "Wartość sprzedaży",
+      "localExpertise": "Lokalne doświadczenie",
+      "localExpertiseValue": "12 lat",
+      "englishSupport": "Obsługa w języku angielskim"
+    },
+    "lifestyle": {
+      "resaleEyebrow": "Rynek wtórny",
+      "resaleTitle": "Ponadczasowa elegancja",
+      "resaleCta": "Zobacz nieruchomości z rynku wtórnego",
+      "newBuildEyebrow": "Nowe budownictwo",
+      "newBuildTitle": "Nowoczesne życie",
+      "newBuildCta": "Poznaj nowe inwestycje"
+    },
+    "featured": {
+      "eyebrow": "Portfolio",
+      "title": "Wyróżnione nieruchomości",
+      "subtitle": "Nasze najnowsze oferty dostępne na rynku.",
+      "viewAll": "Zobacz pełne portfolio"
+    },
+    "areas": {
+      "eyebrow": "Kierunki",
+      "title": "Poznaj okolice"
+    },
+    "seller": {
+      "eyebrow": "Nasza usługa sprzedaży",
+      "title": "Myślisz o sprzedaży?",
+      "body": "Prezentujemy Twoją nieruchomość właściwym kupującym dzięki naszej międzynarodowej sieci — z jasną komunikacją w języku angielskim na każdym etapie procesu.",
+      "cta": "Zamów wycenę"
+    },
+    "buyer": {
+      "eyebrow": "Poradnik kupującego, Hiszpania",
+      "title": "Bezpieczna droga do zakupu domu",
+      "body": "Prowadzimy Cię przez cały proces — od wymogów prawnych po dzień odbioru kluczy.",
+      "cta": "Przeczytaj poradnik kupującego"
+    },
+    "news": {
+      "eyebrow": "Aktualności i analizy",
+      "title": "Inspiracje z wybrzeża",
+      "all": "Wszystkie artykuły"
+    }
+  },
+  "Property": {
+    "beds": "{count, plural, one {# sypialnia} few {# sypialnie} many {# sypialni} other {# sypialni}}",
+    "baths": "{count, plural, one {# łazienka} few {# łazienki} many {# łazienek} other {# łazienek}}",
+    "built": "{value} m² powierzchni",
+    "terrace": "{value} m² tarasu",
+    "plot": "{value} m² działki",
+    "reference": "Nr ref.",
+    "viewDetails": "Zobacz szczegóły",
+    "addFavorite": "Dodaj do ulubionych",
+    "removeFavorite": "Usuń z ulubionych",
+    "tags": {
+      "new": "Nowość",
+      "reduced": "Obniżona cena",
+      "opportunity": "Okazja"
+    }
+  },
+  "ResalePage": {
+    "eyebrow": "Portfolio",
+    "title": "Nieruchomości z rynku wtórnego",
+    "subtitle": "Przeglądaj nasze pełne portfolio uznanych nieruchomości na Costa del Sol.",
+    "resultsCount": "{count, plural, =0 {Nie znaleziono nieruchomości} one {# nieruchomość} few {# nieruchomości} many {# nieruchomości} other {# nieruchomości}}",
+    "noResults": "Żadna nieruchomość nie odpowiada Twoim kryteriom. Spróbuj rozszerzyć filtry."
+  },
+  "DevelopmentsPage": {
+    "eyebrow": "Nowe budownictwo",
+    "title": "Nowe inwestycje",
+    "subtitle": "Nieruchomości w budowie i nowo wybudowane od najbardziej zaufanych deweloperów na wybrzeżu.",
+    "resultsCount": "{count, plural, =0 {Nie znaleziono inwestycji} one {# inwestycja} few {# inwestycje} many {# inwestycji} other {# inwestycji}}",
+    "noResults": "Obecnie żadna nowa inwestycja nie odpowiada Twoim kryteriom."
+  },
+  "PropertyDetail": {
+    "backToList": "Powrót do nieruchomości",
+    "overview": "Opis",
+    "features": "Cechy",
+    "enquire": "Zapytaj o tę nieruchomość",
+    "enquiryIntro": "Zainteresowany ofertą {ref}? Napisz do nas, a wkrótce się odezwiemy.",
+    "location": "Lokalizacja",
+    "notFoundTitle": "Nie znaleziono nieruchomości",
+    "notFoundBody": "Ta oferta mogła zostać sprzedana lub usunięta. Zapoznaj się z naszym aktualnym portfolio.",
+    "spec": {
+      "beds": "Sypialnie",
+      "baths": "Łazienki",
+      "built": "Powierzchnia zabudowy",
+      "terrace": "Taras",
+      "plot": "Działka",
+      "location": "Lokalizacja",
+      "type": "Typ",
+      "reference": "Numer referencyjny"
+    }
+  },
+  "BuyerGuide": {
+    "eyebrow": "Poradnik kupującego, Hiszpania",
+    "title": "Bezpieczna droga do zakupu domu",
+    "intro": "Zakup nieruchomości na Costa del Sol jest prosty, gdy znasz kolejne kroki. Oto jak prowadzimy Cię od pierwszego oglądania po dzień odbioru kluczy.",
+    "steps": {
+      "s1Title": "1. Uzyskanie numeru NIE",
+      "s1Body": "Każdy zagraniczny nabywca potrzebuje numeru NIE (Número de Identidad de Extranjero) — hiszpańskiego numeru identyfikacji podatkowej. Pomożemy Ci go uzyskać przed zakupem.",
+      "s2Title": "2. Otwarcie hiszpańskiego konta bankowego",
+      "s2Body": "Lokalne konto znacznie ułatwia opłacenie nieruchomości, podatków i rachunków. Możemy polecić Ci banki obsługujące klientów w języku angielskim.",
+      "s3Title": "3. Rezerwacja i badanie stanu prawnego",
+      "s3Body": "Umowa rezerwacyjna wycofuje nieruchomość z rynku. Twój niezależny prawnik sprawdza następnie własność, zadłużenie i pozwolenia.",
+      "s4Title": "4. Prywatna umowa kupna",
+      "s4Body": "Zwykle podpisywana z zadatkiem w wysokości 10%, ustala cenę i termin finalizacji oraz określa warunki dla obu stron.",
+      "s5Title": "5. Finalizacja u notariusza",
+      "s5Body": "Akt własności (escritura) zostaje podpisany przed notariuszem, pozostała kwota zostaje zapłacona, a klucze są Twoje."
+    },
+    "cta": "Porozmawiaj z nami o zakupie"
+  },
+  "SellerGuide": {
+    "eyebrow": "Nasza usługa sprzedaży",
+    "title": "Myślisz o sprzedaży?",
+    "intro": "Prezentujemy Twoją nieruchomość właściwym kupującym dzięki naszej międzynarodowej sieci, z jasną komunikacją w języku angielskim na każdym etapie.",
+    "points": {
+      "p1Title": "Rzetelna wycena",
+      "p1Body": "Wyceniamy Twoją nieruchomość na podstawie rzeczywistych, aktualnych danych rynkowych — bez zgadywania.",
+      "p2Title": "Międzynarodowy zasięg",
+      "p2Body": "Twoja oferta jest prezentowana wykwalifikowanym kupującym w Wielkiej Brytanii i całej Europie, w ich własnym języku.",
+      "p3Title": "Kompleksowa obsługa",
+      "p3Body": "Od fotografii i dokumentów po negocjacje i notariusza — prowadzimy cały proces za Ciebie."
+    },
+    "formTitle": "Zamów bezpłatną wycenę",
+    "cta": "Zamów wycenę"
+  },
+  "About": {
+    "eyebrow": "O nas",
+    "title": "Twój oddany partner na wybrzeżu",
+    "body": "The Shore Estates to butikowa agencja skupiona na Costa del Sol. Oferujemy indywidualną obsługę i jasne doradztwo w języku angielskim — od pierwszego zapytania po finalizację i długo po niej.",
+    "statsTitle": "Dlaczego kupujący nam ufają",
+    "teamTitle": "Zespół"
+  },
+  "News": {
+    "eyebrow": "Aktualności i analizy",
+    "title": "Inspiracje z wybrzeża",
+    "subtitle": "Poradniki, analizy rynku i przewodniki po okolicach Costa del Sol.",
+    "readMore": "Czytaj więcej",
+    "articles": {
+      "a1Tag": "Nowe inwestycje",
+      "a1Title": "Co powstaje na wybrzeżu w tym roku",
+      "a1Excerpt": "Przegląd najbardziej oczekiwanych nowych inwestycji powstających wzdłuż Costa del Sol.",
+      "a2Tag": "Poradnik kupującego",
+      "a2Title": "Zrozumieć numer NIE i proces notarialny",
+      "a2Excerpt": "Dwa hiszpańskie dokumenty, które powinien znać każdy zagraniczny nabywca.",
+      "a3Tag": "Przewodnik po okolicy",
+      "a3Title": "Dlaczego Estepona to cichy faworyt Costa del Sol",
+      "a3Excerpt": "Ogrody, odrodzone stare miasto i realna wartość — poznaj skromną gwiazdę wybrzeża."
+    }
+  },
+  "Contact": {
+    "eyebrow": "Kontakt",
+    "title": "Porozmawiajmy o Twojej przeprowadzce",
+    "subtitle": "Napisz nam, czego szukasz, a szybko się z Tobą skontaktujemy — w języku angielskim.",
+    "phoneLabel": "Telefon",
+    "emailLabel": "E-mail",
+    "officeLabel": "Biuro",
+    "office": "Costa del Sol, Hiszpania",
+    "form": {
+      "name": "Imię i nazwisko",
+      "email": "Adres e-mail",
+      "phone": "Telefon (opcjonalnie)",
+      "message": "W czym możemy pomóc?",
+      "submit": "Wyślij zapytanie"
+    }
+  },
+  "Footer": {
+    "tagline": "Twój oddany partner w zakresie nieruchomości na wybrzeżu Costa del Sol. Indywidualna obsługa i jasne doradztwo w języku angielskim — od pierwszego zapytania po finalizację.",
+    "navigate": "Nawigacja",
+    "popularAreas": "Popularne okolice",
+    "contact": "Kontakt",
+    "subscribe": "Zapisz się na aktualizacje",
+    "rights": "© {year} The Shore Estates. Wszelkie prawa zastrzeżone.",
+    "privacy": "Prywatność",
+    "terms": "Regulamin"
+  },
+  "Newsletter": {
+    "brand": "The Shore Estates",
+    "title": "Bądź na bieżąco",
+    "body": "Zapisz się, aby otrzymywać nowe oferty i informacje rynkowe z Costa del Sol prosto na swoją skrzynkę.",
+    "placeholder": "Adres e-mail",
+    "subscribe": "Zapisz się",
+    "close": "Zamknij"
+  }
+}
